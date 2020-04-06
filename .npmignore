@@ -1,0 +1,12 @@
+# Logs
+*.log
+
+# Dependencies
+node_modules/
+
+# Editors
+.vscode/
+.idea/
+
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md

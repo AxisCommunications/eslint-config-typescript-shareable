@@ -2,6 +2,18 @@
 
 Typescript ESLint shareable config
 
+This config provides an explicit list of linting rules so you can use the same rules across different projects.
+The rules that are provided in this config are mostly best practices for the React and JavaScript and TypeScript code.
+
+The rules we have should:
+
+- not enforce any visual style (use prettier for that)
+- not enforce any particular coding style (functional, React hooks)
+- be well-behaved (e.g. forcing use of nullish coalescing can lead to worse looking code)
+- be allowed or error, not just warn
+
+If you want to add a new rule or change an existing rule, please create an issue or pull request.
+
 ## Install
 
 ```bash

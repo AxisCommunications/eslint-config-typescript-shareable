@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v0.2.0...v0.3.0) (2020-04-20)
+
+
+### Features
+
+* **eslint:** define all eslint rules that are used ([2a6b3ff](https://github.com/AxisCommunications/eslint-config-typescript-shareable/commit/2a6b3ff4d7674ac654b028079e69abd1b3d68bcf))
+
+
+
 # [0.2.0](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v0.1.0...v0.2.0) (2020-04-06)
 
 

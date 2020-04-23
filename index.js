@@ -57,8 +57,6 @@ module.exports = {
     'no-ex-assign': 'error',
     /** Disallow unnecessary boolean casts */
     'no-extra-boolean-cast': 'error',
-    /** Disallow unnecessary semicolons */
-    'no-extra-semi': 'error',
     /** Disallow reassigning `function` declarations */
     'no-func-assign': 'error',
     /** Disallow assigning to imported bindings */
@@ -97,7 +95,8 @@ module.exports = {
      */
     /** Enforce `return` statements in callbacks of array methods */
     'array-callback-return': ['error', { allowImplicit: true }],
-    eqeqeq: ['error', 'always', { null: 'ignore' }],
+    /** Require === and !== */
+    eqeqeq: ['error', 'always'],
     /** Require `for-in` loops to include an `if` statement */
     'guard-for-in': 'error',
     /** Disallow `else` blocks after `return` statements in `if` statements */
@@ -136,14 +135,10 @@ module.exports = {
     'no-useless-catch': 'error',
     /** Disallow unnecessary escape characters */
     'no-useless-escape': 'error',
-    /** Disallow `with` statements */
-    'no-with': 'error',
 
     /**
      * Variables
      */
-    /** Disallow deleting variables */
-    'no-delete-var': 'error',
     /** Disallow variable declarations from shadowing variables declared in the outer scope */
     'no-shadow': 'error',
     /** Disallow identifiers from shadowing restricted names */
@@ -158,10 +153,6 @@ module.exports = {
     'constructor-super': 'error',
     /** Disallow reassigning class members */
     'no-class-assign': 'error',
-    /** Disallow reassigning `const` variables */
-    'no-const-assign': 'error',
-    /** Disallow duplicate class members */
-    'no-dupe-class-members': 'error',
     /** Disallow duplicate module imports */
     'no-duplicate-imports': 'error',
     /** Disallow `new` operators with the `Symbol` object */
@@ -191,28 +182,17 @@ module.exports = {
     /** Disallows awaiting a value that is not a Promise */
     '@typescript-eslint/await-thenable': 'error',
     /** Bans “// @ts-ignore” comments from being used */
-    '@typescript-eslint/ban-ts-ignore': 'error',
+    '@typescript-eslint/ban-ts-comment': 'error',
     /** Bans specific types from being used */
     '@typescript-eslint/ban-types': 'error',
-    /** Require PascalCased class and interface names */
-    '@typescript-eslint/class-name-casing': 'error',
     /** Enforces consistent usage of type assertions */
     '@typescript-eslint/consistent-type-assertions': 'error',
     /** Consistent with type definition either interface or type */
     '@typescript-eslint/consistent-type-definitions': 'error',
     /** Require explicit accessibility modifiers on class properties and methods */
     '@typescript-eslint/explicit-member-accessibility': 'error',
-    /** Require or disallow spacing between function identifiers and their invocations */
-    '@typescript-eslint/func-call-spacing': 'error',
-    /** Require that interface names be prefixed with I */
-    '@typescript-eslint/interface-name-prefix': [
-      'error',
-      { prefixWithI: 'always' },
-    ],
-    /** Enforces naming conventions for class members by visibility */
-    '@typescript-eslint/member-naming': 'error',
-    /** Require a consistent member declaration order */
-    '@typescript-eslint/member-ordering': 'error',
+    /** Require PascalCased class and interface names */
+    '@typescript-eslint/naming-convention': 'error',
     /** Disallow generic Array constructors */
     '@typescript-eslint/no-array-constructor': 'error',
     /** Disallow Empty Functions */
@@ -231,8 +211,6 @@ module.exports = {
     '@typescript-eslint/no-misused-new': 'error',
     /** Avoid using promises in places not designed to handle them */
     '@typescript-eslint/no-misused-promises': 'error',
-    /** Disallow the use of custom TypeScript modules and namespaces */
-    '@typescript-eslint/no-namespace': 'error',
     /** Disallows non-null assertions using the ! postfix operator */
     '@typescript-eslint/no-non-null-assertion': 'error',
     /** Disallow the use of parameter properties in class constructors */
@@ -259,24 +237,16 @@ module.exports = {
     ],
     /** Disallow unnecessary constructors */
     '@typescript-eslint/no-useless-constructor': 'error',
-    /** Disallows the use of require statements except in import statements */
-    '@typescript-eslint/no-var-requires': 'error',
     /** Use for-of loops instead of standard for loops over arrays */
     '@typescript-eslint/prefer-for-of': 'error',
     /** Use function types instead of interfaces with call signatures */
     '@typescript-eslint/prefer-function-type': 'error',
     /** Enforce includes method over indexOf method */
     '@typescript-eslint/prefer-includes': 'error',
-    /** Require the use of the namespace keyword instead of the module keyword to declare custom TypeScript modules */
-    '@typescript-eslint/prefer-namespace-keyword': 'error',
     /** Require never-modified private members be marked as readonly */
     '@typescript-eslint/prefer-readonly': 'error',
-    /** Enforce to use RegExp#exec over String#match */
-    '@typescript-eslint/prefer-regexp-exec': 'error',
     /** Enforce the use of String#startsWith and String#endsWith instead of other equivalent methods of checking substrings */
     '@typescript-eslint/prefer-string-starts-ends-with': 'error',
-    /** Functions that return promises must be async */
-    '@typescript-eslint/promise-function-async': 'error',
     /** Enforce giving compare argument to Array#sort */
     '@typescript-eslint/require-array-sort-compare': 'error',
     /** Disallow async functions which have no await expression */
@@ -287,8 +257,6 @@ module.exports = {
     '@typescript-eslint/strict-boolean-expressions': 'error',
     /** Sets preference level for triple slash directives versus ES6-style import declarations */
     '@typescript-eslint/triple-slash-reference': 'error',
-    /** Require consistent spacing around type annotations */
-    '@typescript-eslint/type-annotation-spacing': 'error',
     /** Enforces unbound methods are called with their expected scope */
     '@typescript-eslint/unbound-method': 'error',
     /** Warns for any two overloads that could be unified into one by using a union or an optional/rest parameter */
@@ -330,19 +298,9 @@ module.exports = {
     'react/no-deprecated': 'error',
     /** Prevent direct mutation of this.state */
     'react/no-direct-mutation-state': 'error',
-    /** Prevent usage of findDOMNode */
-    'react/no-find-dom-node': 'error',
-    /** Prevent usage of isMounted */
-    'react/no-is-mounted': 'error',
-    /** Prevent usage of the return value of ReactDOM.render */
-    'react/no-render-return-value': 'error',
-    /** Prevent using string references */
-    'react/no-string-refs': 'error',
     /** Prevent invalid characters from appearing in markup */
     'react/no-unescaped-entities': 'error',
     /** Prevent usage of unknown DOM property */
-    'react/no-unknown-property': 'error',
-    /** Prevent missing React when using JSX */
     'react/react-in-jsx-scope': 'error',
     /** Enforce ES5 or ES6 class for returning value in render function */
     'react/require-render-return': 'error',
@@ -380,6 +338,11 @@ module.exports = {
     /** Reports use of a default export as a locally named import */
     'import/no-named-default': 'error',
     /** Prevent unnecessary path segments in import and require statements */
-    'import/no-useless-path-segments': 'error',
+    'import/no-useless-path-segments': [
+      'error',
+      {
+        noUselessIndex: true,
+      },
+    ],
   },
 }

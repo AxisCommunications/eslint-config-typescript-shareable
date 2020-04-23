@@ -5,6 +5,9 @@ Typescript ESLint shareable config
 This config provides an explicit list of linting rules so you can use the same rules across different projects.
 The rules that are provided in this config are mostly best practices for the React and JavaScript and TypeScript code.
 
+This configuration presumes that at least ES2015, TypeScript and [React strict mode](https://reactjs.org/docs/strict-mode.html)
+are used in the project that uses this config.
+
 The rules we have should:
 
 - not enforce any visual style (use prettier for that)
@@ -28,6 +31,22 @@ yarn add -D eslint-config-typescript-shareable
    ```yml
    extends:
      - 'typescript-shareable'
+
+   parserOptions:
+     project: './tsconfig.json'
+
+   env:
+     browser: true
+     es6: true
+     node: true
+
+   overrides:
+     ###
+     # Test file overrides
+     ###
+     - files: ['**/*.test.tsx', '**/*.test.ts']
+       env:
+         jest: true
    ```
 
 2. stylelint

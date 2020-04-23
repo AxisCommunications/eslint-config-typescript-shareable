@@ -173,7 +173,7 @@ module.exports = {
     /**
      * @typescript-eslint rules
      * https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin/docs/rules
-     * based on version 2.26.0
+     * based on version 2.29.0
      */
     /** Require that member overloads be consecutive */
     '@typescript-eslint/adjacent-overload-signatures': 'error',
@@ -316,7 +316,7 @@ module.exports = {
     /**
      * functional rules
      * https://github.com/jonaskello/eslint-plugin-functional
-     * based on version
+     * based on version 3.0.1
      */
     /** Prefer readonly types over mutable types */
     'functional/prefer-readonly-type': [
@@ -329,7 +329,7 @@ module.exports = {
     /**
      * import rules
      * https://github.com/benmosher/eslint-plugin-import/tree/master/docs/rules
-     * based on version 3.0.0
+     * based on version 2.20.2
      */
     /** Ensures that there is no resolvable path back to this module via its dependencies */
     'import/no-cycle': 'error',

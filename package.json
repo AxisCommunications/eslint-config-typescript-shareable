@@ -8,6 +8,11 @@
     ".stylelintrc",
     ".prettierrc.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AxisCommunications/eslint-config-typescript-shareable.git"
+  },
+  "homepage": "https://github.com/AxisCommunications/eslint-config-typescript-shareable",
   "license": "MIT",
   "engines": {
     "node": ">=10.11.0",

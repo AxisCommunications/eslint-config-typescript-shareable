@@ -1,3 +1,12 @@
+## [0.6.1](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v0.6.0...v0.6.1) (2020-07-06)
+
+
+### Bug Fixes
+
+* add exclusions to some rules ([d8922ed](https://github.com/AxisCommunications/eslint-config-typescript-shareable/commit/d8922eda601d4fb6ed53eb9602ee7423dc9c750e))
+
+
+
 # [0.6.0](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v0.5.1...v0.6.0) (2020-07-06)
 
 

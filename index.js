@@ -192,7 +192,13 @@ module.exports = {
     /** Require explicit accessibility modifiers on class properties and methods */
     '@typescript-eslint/explicit-member-accessibility': 'error',
     /** Require PascalCased class and interface names */
-    '@typescript-eslint/naming-convention': 'error',
+    '@typescript-eslint/naming-convention': [
+      'error',
+      {
+        selector: 'typeLike',
+        format: ['PascalCase'],
+      },
+    ],
     /** Disallow generic Array constructors */
     '@typescript-eslint/no-array-constructor': 'error',
     /** Disallow Empty Functions */
@@ -258,7 +264,7 @@ module.exports = {
     /** Sets preference level for triple slash directives versus ES6-style import declarations */
     '@typescript-eslint/triple-slash-reference': 'error',
     /** Enforces unbound methods are called with their expected scope */
-    '@typescript-eslint/unbound-method': 'error',
+    '@typescript-eslint/unbound-method': ['error', { ignoreStatic: true }],
     /** Warns for any two overloads that could be unified into one by using a union or an optional/rest parameter */
     '@typescript-eslint/unified-signatures': 'error',
 

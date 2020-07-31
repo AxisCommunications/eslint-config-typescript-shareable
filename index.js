@@ -7,6 +7,7 @@ module.exports = {
     'functional',
     'react',
     'import',
+    'node',
   ],
 
   rules: {
@@ -348,6 +349,19 @@ module.exports = {
       'error',
       {
         noUselessIndex: true,
+      },
+    ],
+
+    /**
+     * node rules
+     * https://github.com/mysticatea/eslint-plugin-node/tree/master/docs/rules
+     * based on version 11.1.0
+     */
+    /** Disallow import declarations which import extraneous modules */
+    'node/no-extraneous-import': [
+      'error',
+      {
+        allowModules: ['electron'],
       },
     ],
   },

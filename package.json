@@ -31,6 +31,7 @@
     "eslint": "7.5.0",
     "eslint-plugin-functional": "3.0.1",
     "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-node": "11.1.0",
     "eslint-plugin-react": "7.20.5",
     "eslint-plugin-react-hooks": "4.0.8",
     "prettier": "2.0.5",
@@ -43,5 +44,8 @@
   "devDependencies": {
     "conventional-changelog-cli": "2.0.34",
     "conventional-recommended-bump": "6.0.9"
+  },
+  "resolutions": {
+    "dot-prop": "5.2.0"
   }
 }

@@ -1,3 +1,12 @@
+# [0.8.0](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v0.7.0...v0.8.0) (2020-07-31)
+
+
+### Features
+
+* add `node/no-extraneous-import` rule ([1b52d8a](https://github.com/AxisCommunications/eslint-config-typescript-shareable/commit/1b52d8a84d666f910f21dca347b79df3b2053dc8))
+
+
+
 # [0.7.0](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v0.6.1...v0.7.0) (2020-07-29)
 
 

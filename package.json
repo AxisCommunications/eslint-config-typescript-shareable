@@ -26,8 +26,8 @@
     "release": "yarn version --new-version `node node_modules/.bin/conventional-recommended-bump -p angular`"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "4.0.1",
-    "@typescript-eslint/parser": "4.0.1",
+    "@typescript-eslint/eslint-plugin": "4.1.0",
+    "@typescript-eslint/parser": "4.1.0",
     "eslint": "7.8.1",
     "eslint-plugin-functional": "3.0.2",
     "eslint-plugin-import": "2.22.0",

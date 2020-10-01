@@ -122,8 +122,6 @@ module.exports = {
     'no-new-wrappers': 'error',
     /** Disallow octal literals */
     'no-octal': 'error',
-    /** Disallow variable redeclaration */
-    'no-redeclare': 'error',
     /** Disallow assignments where both sides are exactly the same */
     'no-self-assign': 'error',
     /** Disallow `javascript:` urls */
@@ -140,12 +138,8 @@ module.exports = {
     /**
      * Variables
      */
-    /** Disallow variable declarations from shadowing variables declared in the outer scope */
-    'no-shadow': 'error',
     /** Disallow identifiers from shadowing restricted names */
     'no-shadow-restricted-names': 'error',
-    /** disallow the use of undeclared variables unless mentioned in global comments */
-    'no-undef': 'error',
 
     /**
      * ECMAScript 6
@@ -222,8 +216,12 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'error',
     /** Disallow the use of parameter properties in class constructors */
     '@typescript-eslint/no-parameter-properties': 'error',
+    /** Disallow variable redeclaration */
+    "@typescript-eslint/no-redeclare": "error",
     /** Disallows invocation of require() */
     '@typescript-eslint/no-require-imports': 'error',
+    /** Disallow variable declarations from shadowing variables declared in the outer scope */
+    "@typescript-eslint/no-shadow": "error",
     /** Disallow aliasing this */
     '@typescript-eslint/no-this-alias': 'error',
     /** Warns when a namespace qualifier is unnecessary */

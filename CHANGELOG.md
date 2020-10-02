@@ -1,3 +1,12 @@
+# [0.17.0](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v0.16.0...v0.17.0) (2020-10-02)
+
+
+### Features
+
+* use [@typescript-eslint](https://github.com/typescript-eslint) version of no-shadow/no-redeclare ([0da120b](https://github.com/AxisCommunications/eslint-config-typescript-shareable/commit/0da120bdb2b9d923fb8235ed407a49a52a66d37b)), closes [/github.com/typescript-eslint/typescript-eslint/issues/2477#issuecomment-686892459](https://github.com//github.com/typescript-eslint/typescript-eslint/issues/2477/issues/issuecomment-686892459)
+
+
+
 # [0.16.0](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v0.15.0...v0.16.0) (2020-09-29)
 
 

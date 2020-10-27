@@ -291,8 +291,6 @@ module.exports = {
     'react/jsx-no-target-blank': 'error',
     /** Disallow undeclared variables in JSX */
     'react/jsx-no-undef': 'error',
-    /** Prevent React to be incorrectly marked as unused */
-    'react/jsx-uses-react': 'error',
     /** Prevent variables used in JSX to be incorrectly marked as unused */
     'react/jsx-uses-vars': 'error',
     /** Prevent passing of children as props */
@@ -305,8 +303,6 @@ module.exports = {
     'react/no-direct-mutation-state': 'error',
     /** Prevent invalid characters from appearing in markup */
     'react/no-unescaped-entities': 'error',
-    /** Prevent usage of unknown DOM property */
-    'react/react-in-jsx-scope': 'error',
     /** Enforce ES5 or ES6 class for returning value in render function */
     'react/require-render-return': 'error',
 

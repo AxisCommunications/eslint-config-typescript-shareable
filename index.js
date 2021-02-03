@@ -7,7 +7,6 @@ module.exports = {
     'functional',
     'react',
     'import',
-    'node',
   ],
 
   extends: ['plugin:import/typescript'],

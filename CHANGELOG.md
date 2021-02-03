@@ -1,3 +1,12 @@
+## [0.30.1](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v0.30.0...v0.30.1) (2021-02-03)
+
+
+### Bug Fixes
+
+* remove forgotten node plugin ([b2905e7](https://github.com/AxisCommunications/eslint-config-typescript-shareable/commit/b2905e704d9af9f4d58d2f11ea7de13fa7097c08))
+
+
+
 # [0.30.0](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v0.29.0...v0.30.0) (2021-02-03)
 
 

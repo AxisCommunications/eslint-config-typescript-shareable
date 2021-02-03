@@ -1,3 +1,12 @@
+# [0.30.0](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v0.29.0...v0.30.0) (2021-02-03)
+
+
+### Features
+
+* use "import/no-extraneous-dependencies" ([5e361a6](https://github.com/AxisCommunications/eslint-config-typescript-shareable/commit/5e361a68e66a193cd2ff536e192bdc9dcd918eae))
+
+
+
 # [0.29.0](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v0.28.0...v0.29.0) (2021-02-01)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-typescript-shareable",
-  "version": "0.29.0",
+  "version": "0.30.0",
   "description": "Common TypeScript lint configuration (eslint, stylelint, prettier)",
   "main": "index.js",
   "files": [

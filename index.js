@@ -10,6 +10,12 @@ module.exports = {
     'node',
   ],
 
+  extends: ['plugin:import/typescript'],
+
+  settings: {
+    'import/core-modules': ['electron'],
+  },
+
   rules: {
     /**
      * ESLint rules
@@ -217,11 +223,11 @@ module.exports = {
     /** Disallow the use of parameter properties in class constructors */
     '@typescript-eslint/no-parameter-properties': 'error',
     /** Disallow variable redeclaration */
-    "@typescript-eslint/no-redeclare": "error",
+    '@typescript-eslint/no-redeclare': 'error',
     /** Disallows invocation of require() */
     '@typescript-eslint/no-require-imports': 'error',
     /** Disallow variable declarations from shadowing variables declared in the outer scope */
-    "@typescript-eslint/no-shadow": "error",
+    '@typescript-eslint/no-shadow': 'error',
     /** Disallow aliasing this */
     '@typescript-eslint/no-this-alias': 'error',
     /** Warns when a namespace qualifier is unnecessary */
@@ -336,6 +342,8 @@ module.exports = {
     'import/no-cycle': 'error',
     /** Prohibit default exports. */
     'import/no-default-export': 'error',
+    /** Forbid the use of extraneous packages */
+    'import/no-extraneous-dependencies': 'error',
     /** Reports use of a default export as a locally named import */
     'import/no-named-default': 'error',
     /** Prevent unnecessary path segments in import and require statements */
@@ -343,19 +351,6 @@ module.exports = {
       'error',
       {
         noUselessIndex: true,
-      },
-    ],
-
-    /**
-     * node rules
-     * https://github.com/mysticatea/eslint-plugin-node/tree/master/docs/rules
-     * based on version 11.1.0
-     */
-    /** Disallow import declarations which import extraneous modules */
-    'node/no-extraneous-import': [
-      'error',
-      {
-        allowModules: ['electron'],
       },
     ],
   },

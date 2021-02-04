@@ -2,7 +2,7 @@
 
 Please use the github issue tracker for any bugs or feature requests,
 email sent to the maintainer(s) will probably be ignored.
-If you would like to backport a feature from master to a release
+If you would like to backport a feature from main to a release
 branch, also put a ticket for enhancement.
 
 If you would like to contribute bug fixes or new components,
@@ -28,4 +28,4 @@ for you editor, or to run `yarn prettier:fix` before committing any changes.
 Automated tests are run for all pull requests with GitHub Actions, for which
 the configuration can be found in the `.github/workflows/ci.yml` file. These
 are required to pass before a PR can be merged, so please keep your PR
-up-to-date by merging the latest `master` branch.
+up-to-date by merging the latest `main` branch.

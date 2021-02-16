@@ -1,3 +1,12 @@
+# [0.32.0](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v0.31.0...v0.32.0) (2021-02-16)
+
+
+### Features
+
+* updates dependencies to latest versions ([c714789](https://github.com/AxisCommunications/eslint-config-typescript-shareable/commit/c71478985d9de04da7292f5dd2fd7b4872c05a6d))
+
+
+
 # [0.31.0](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v0.30.1...v0.31.0) (2021-02-09)
 
 

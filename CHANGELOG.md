@@ -1,3 +1,12 @@
+## [0.34.1](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v0.34.0...v0.34.1) (2021-03-02)
+
+
+### Bug Fixes
+
+* downgrade typescript version to make it work with yarn berry ([748bfd7](https://github.com/AxisCommunications/eslint-config-typescript-shareable/commit/748bfd7ca463d73ab2b573d54656bf49ebc2b98b))
+
+
+
 # [0.34.0](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v0.33.0...v0.34.0) (2021-03-02)
 
 

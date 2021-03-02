@@ -26,9 +26,9 @@
     "release": "yarn version --new-version `node node_modules/.bin/conventional-recommended-bump -p angular`"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "4.15.2",
-    "@typescript-eslint/parser": "4.15.2",
-    "eslint": "7.20.0",
+    "@typescript-eslint/eslint-plugin": "4.16.1",
+    "@typescript-eslint/parser": "4.16.1",
+    "eslint": "7.21.0",
     "eslint-plugin-functional": "3.2.1",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-react": "7.22.0",
@@ -38,7 +38,7 @@
     "stylelint-config-recommended": "3.0.0",
     "stylelint-config-styled-components": "0.1.1",
     "stylelint-processor-styled-components": "1.10.0",
-    "typescript": "4.1.5"
+    "typescript": "4.2.2"
   },
   "devDependencies": {
     "conventional-changelog-cli": "2.1.1",

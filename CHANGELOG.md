@@ -1,3 +1,12 @@
+## [0.44.1](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v0.44.0...v0.44.1) (2021-06-01)
+
+
+### Bug Fixes
+
+* add `postcss` to resolutions ([0be0b79](https://github.com/AxisCommunications/eslint-config-typescript-shareable/commit/0be0b797018feb418135705afd396a455d8af95d))
+
+
+
 # [0.44.0](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v0.43.0...v0.44.0) (2021-06-01)
 
 

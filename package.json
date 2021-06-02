@@ -15,8 +15,8 @@
   "homepage": "https://github.com/AxisCommunications/eslint-config-typescript-shareable",
   "license": "MIT",
   "engines": {
-    "node": ">=14.16.1",
-    "yarn": ">=2.4.1"
+    "node": ">=10.11.0",
+    "yarn": ">=1.12.3"
   },
   "scripts": {
     "lint": "yarn prettier:check",

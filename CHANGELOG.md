@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
-## [v1.0.0](https://github.com/AxisCommunications/media-stream-player-js/compare/v0.44.1...v1.0.0) (2021-06-02 10:06:29 +0200)
+## [v1.1.0](https://github.com/AxisCommunications/media-stream-player-js/compare/v1.0.0...v1.1.0) (2021-06-02 14:10:07 +0200)
+
+### Maintenance
+
+  - revert `engines` field ([9870930](https://github.com/AxisCommunications/media-stream-player-js/commit/987093014ca39cb6fd9eb8ad33591cd9cbe43551))
+  - update required `engines` field ([3f853b6](https://github.com/AxisCommunications/media-stream-player-js/commit/3f853b6dc8e2fb7e1cfb3a9e344557f9665710c7))
+
+## [v1.0.0](https://github.com/AxisCommunications/media-stream-player-js/compare/v0.44.1...v1.0.0) (2021-06-02 10:06:40 +0200)
 
 ### Maintenance
 
@@ -298,6 +305,4 @@ All notable changes to this project will be documented in this file.
 ### Features
 
   - **prettier**: exclude parentheses around a sole arrow function parameter ([e85a55e](https://github.com/AxisCommunications/media-stream-player-js/commit/e85a55ec93f3dacbe9f3d7f89c09f40528e68db8))
-
-## [v0.1.0](https://github.com/AxisCommunications/media-stream-player-js/compare/refs/heads/main...v0.1.0) (2020-04-06 12:49:28 +0200)
 

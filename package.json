@@ -41,7 +41,7 @@
     "typescript-styled-plugin": "^0.17.0"
   },
   "devDependencies": {
-    "prettier": "2.3.1",
+    "prettier": "2.3.2",
     "semver": "7.3.5"
   }
 }

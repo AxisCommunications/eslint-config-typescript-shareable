@@ -11,8 +11,8 @@ function usage {
 EOF
 }
 
-GITHUB_COMPARE_URL="https://github.com/AxisCommunications/media-stream-player-js/compare"
-GITHUB_COMMIT_URL="https://github.com/AxisCommunications/media-stream-player-js/commit"
+GITHUB_COMPARE_URL="https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare"
+GITHUB_COMMIT_URL="https://github.com/AxisCommunications/eslint-config-typescript-shareable/commit"
 
 MERGED_TAGS=$(git -c versionsort.suffix=-alpha tag --list --sort='-version:refname' --merged HEAD)
 

@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
-## [v1.5.0](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v1.4.0...v1.5.0) (2021-10-26 09:09:08 +0200)
+## [v1.6.0](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v1.5.0...v1.6.0) (2021-11-23 11:34:31 +0100)
+
+### Maintenance
+
+  - updates dependencies to latest versions ([25f9619](https://github.com/AxisCommunications/eslint-config-typescript-shareable/commit/25f961926e74f1e978e5fce7a679d10796e0570f))
+
+## [v1.5.0](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v1.4.0...v1.5.0) (2021-10-26 09:09:23 +0200)
 
 ### Maintenance
 

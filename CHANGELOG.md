@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
-## [v1.6.0](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v1.5.0...v1.6.0) (2021-11-23 11:34:31 +0100)
+## [v1.7.0](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v1.6.0...v1.7.0) (2021-12-30 09:34:20 +0100)
+
+### Maintenance
+
+  - update stylelint to latest version ([7e2cda4](https://github.com/AxisCommunications/eslint-config-typescript-shareable/commit/7e2cda47bc8826b79eaa9e8a61637759f08e22fc))
+  - updates dependencies ([1c8d537](https://github.com/AxisCommunications/eslint-config-typescript-shareable/commit/1c8d537cff1b678a1071449c94a9524e70a7ef7e))
+
+## [v1.6.0](https://github.com/AxisCommunications/eslint-config-typescript-shareable/compare/v1.5.0...v1.6.0) (2021-11-23 11:34:51 +0100)
 
 ### Maintenance
 

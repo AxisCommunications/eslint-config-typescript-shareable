@@ -41,8 +41,8 @@
     "typescript-styled-plugin": "^0.17.0"
   },
   "devDependencies": {
-    "prettier": "2.4.1",
+    "prettier": "2.5.1",
     "semver": "7.3.5"
   },
-  "packageManager": "yarn@3.1.0"
+  "packageManager": "yarn@3.1.1"
 }

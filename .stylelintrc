@@ -28,5 +28,6 @@
     "stylelint-config-recommended",
     "stylelint-config-styled-components"
   ],
+  "customSyntax": "postcss-scss",
   "syntax": "styled"
 }

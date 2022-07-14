@@ -15,8 +15,8 @@
   "homepage": "https://github.com/AxisCommunications/eslint-config-typescript-shareable",
   "license": "MIT",
   "engines": {
-    "node": ">=10.11.0",
-    "yarn": ">=1.12.3"
+    "node": ">=16.0.0",
+    "yarn": ">=1.22.0"
   },
   "scripts": {
     "lint": "yarn prettier:check",
@@ -25,29 +25,29 @@
     "release": "sbin/release.sh"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.0.0",
-    "@typescript-eslint/parser": "^5.0.0",
-    "eslint": "^8.0.0",
-    "eslint-plugin-functional": "^4.0.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.0",
+    "@typescript-eslint/parser": "^5.30.0",
+    "eslint": "^8.19.0",
+    "eslint-plugin-functional": "^4.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "postcss": "^8.4.5",
     "postcss-scss": "^4.0.2",
     "postcss-styled": "^0.34.0",
     "postcss-syntax": "^0.36.2",
-    "prettier": "^2.3.0",
-    "stylelint": "^14.2.0",
-    "stylelint-config-recommended": "^6.0.0",
-    "stylelint-config-standard-scss": "^3.0.0",
+    "prettier": "^2.7.0",
+    "stylelint": "^14.9.0",
+    "stylelint-config-recommended": "^8.0.0",
+    "stylelint-config-standard-scss": "^4.0.0",
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-processor-styled-components": "^1.10.0",
-    "typescript": "^4.2.4",
-    "typescript-styled-plugin": "^0.17.0"
+    "typescript": "^4.7.0",
+    "typescript-styled-plugin": "^0.18.0"
   },
   "devDependencies": {
-    "prettier": "2.6.2",
-    "semver": "7.3.5"
+    "prettier": "2.7.1",
+    "semver": "7.3.7"
   },
-  "packageManager": "yarn@3.2.0"
+  "packageManager": "yarn@3.2.1"
 }

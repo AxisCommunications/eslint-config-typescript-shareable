@@ -9,28 +9,28 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eslint-config-typescript-shareable@workspace:."
   dependencies:
-    prettier: 2.6.2
-    semver: 7.3.5
+    prettier: 2.7.1
+    semver: 7.3.7
   peerDependencies:
-    "@typescript-eslint/eslint-plugin": ^5.0.0
-    "@typescript-eslint/parser": ^5.0.0
-    eslint: ^8.0.0
-    eslint-plugin-functional: ^4.0.0
-    eslint-plugin-import: ^2.23.4
-    eslint-plugin-react: ^7.24.0
-    eslint-plugin-react-hooks: ^4.2.0
+    "@typescript-eslint/eslint-plugin": ^5.30.0
+    "@typescript-eslint/parser": ^5.30.0
+    eslint: ^8.19.0
+    eslint-plugin-functional: ^4.2.0
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-react: ^7.30.0
+    eslint-plugin-react-hooks: ^4.6.0
     postcss: ^8.4.5
     postcss-scss: ^4.0.2
     postcss-styled: ^0.34.0
     postcss-syntax: ^0.36.2
-    prettier: ^2.3.0
-    stylelint: ^14.2.0
-    stylelint-config-recommended: ^6.0.0
-    stylelint-config-standard-scss: ^3.0.0
+    prettier: ^2.7.0
+    stylelint: ^14.9.0
+    stylelint-config-recommended: ^8.0.0
+    stylelint-config-standard-scss: ^4.0.0
     stylelint-config-styled-components: ^0.1.1
     stylelint-processor-styled-components: ^1.10.0
-    typescript: ^4.2.4
-    typescript-styled-plugin: ^0.17.0
+    typescript: ^4.7.0
+    typescript-styled-plugin: ^0.18.0
   languageName: unknown
   linkType: soft
 
@@ -43,23 +43,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.6.2":
-  version: 2.6.2
-  resolution: "prettier@npm:2.6.2"
+"prettier@npm:2.7.1":
+  version: 2.7.1
+  resolution: "prettier@npm:2.7.1"
   bin:
     prettier: bin-prettier.js
-  checksum: 48d08dde8e9fb1f5bccdd205baa7f192e9fc8bc98f86e1b97d919de804e28c806b0e6cc685e4a88211aa7987fa9668f30baae19580d87ced3ed0f2ec6572106f
+  checksum: 55a4409182260866ab31284d929b3cb961e5fdb91fe0d2e099dac92eaecec890f36e524b4c19e6ceae839c99c6d7195817579cdffc8e2c80da0cb794463a748b
   languageName: node
   linkType: hard
 
-"semver@npm:7.3.5":
-  version: 7.3.5
-  resolution: "semver@npm:7.3.5"
+"semver@npm:7.3.7":
+  version: 7.3.7
+  resolution: "semver@npm:7.3.7"
   dependencies:
     lru-cache: ^6.0.0
   bin:
     semver: bin/semver.js
-  checksum: 5eafe6102bea2a7439897c1856362e31cc348ccf96efd455c8b5bc2c61e6f7e7b8250dc26b8828c1d76a56f818a7ee907a36ae9fb37a599d3d24609207001d60
+  checksum: 2fa3e877568cd6ce769c75c211beaed1f9fce80b28338cadd9d0b6c40f2e2862bafd62c19a6cff42f3d54292b7c623277bcab8816a2b5521cf15210d43e75232
   languageName: node
   linkType: hard
 

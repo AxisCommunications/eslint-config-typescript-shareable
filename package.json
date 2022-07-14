@@ -20,9 +20,10 @@
   },
   "scripts": {
     "lint": "yarn prettier:check",
+    "commitlint": "sbin/commitlint.py",
     "prettier:check": "prettier -c -u .",
     "prettier:fix": "prettier -c -u -w .",
-    "release": "sbin/release.sh"
+    "release": "sbin/release.py"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.0",

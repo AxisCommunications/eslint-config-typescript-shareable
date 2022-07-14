@@ -13,37 +13,36 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Setup node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
-          node-version: '14'
+          node-version: '18'
           registry-url: 'https://registry.npmjs.org'
 
       - name: Install dependencies
         run: yarn install --immutable --immutable-cache
 
+      - name: Release changelog
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ./sbin/changelog.py --skip-header single > release-CHANGELOG.md
+
       - name: Release
         id: release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # provided by Actions
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
+          body_path: release-CHANGELOG.md
           draft: false
           prerelease: false
-
-      - name: Upload changelog
-        uses: actions/upload-release-asset@v1.0.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.release.outputs.upload_url }}
-          asset_path: CHANGELOG.md
-          asset_name: CHANGELOG.md
-          asset_content_type: text/markdown
 
       - name: Deploy NPM package
         env:

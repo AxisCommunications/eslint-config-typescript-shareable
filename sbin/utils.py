@@ -69,7 +69,8 @@ def get_github_api(url: str):
         print("GITHUB_TOKEN environment not set")
         sys.exit(1)
     except urllib.error.HTTPError as e:
-        return None
+        print("GitHub API request failed:", e)
+        sys.exit(1)
 
 
 def get_github_pull_request(sha: str):

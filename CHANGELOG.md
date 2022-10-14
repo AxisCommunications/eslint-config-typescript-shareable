@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.
 
 ## [v1.8.0](https://github.com//AxisCommunications/eslint-config-typescript-shareable/releases/tag/v1.8.0)
-2022-07-14 16:51:39 +0200, [Compare changes](https://github.com//AxisCommunications/eslint-config-typescript-shareable/compare/v1.7.0...v1.8.0)
+2022-07-14 16:54:25 +0200, [Compare changes](https://github.com//AxisCommunications/eslint-config-typescript-shareable/compare/v1.7.0...v1.8.0)
 
 ### 🚧 Maintenance
 
@@ -424,3 +424,4 @@ All notable changes to this project will be documented in this file.
 ### ✨ Features
 
   -  adds shareable config ([`1f58e6f`](https://github.com//AxisCommunications/eslint-config-typescript-shareable/commit/1f58e6f497283ca6e64c15a46a2206c4745b212f))
+

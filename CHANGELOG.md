@@ -1,7 +1,17 @@
+
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [v1.8.0](https://github.com//AxisCommunications/eslint-config-typescript-shareable/releases/tag/v1.8.0)
+## [v1.9.0](https://github.com//AxisCommunications/eslint-config-typescript-shareable/releases/tag/v1.9.0)
+2022-10-17 13:45:19 +0200, [Compare changes](https://github.com//AxisCommunications/eslint-config-typescript-shareable/compare/v1.8.0...v1.9.0)
+
+### 🚧 Maintenance
+
+  -  update dependencies ([`4126f3a`](https://github.com//AxisCommunications/eslint-config-typescript-shareable/commit/4126f3ab46a8e393a663903e6f821094c206e439)) ([**@Tigge**](https://github.com/Tigge))
+  -  update scripts ([`00b21bf`](https://github.com//AxisCommunications/eslint-config-typescript-shareable/commit/00b21bfb6248bbea4c4dc71b3656a877e09cde2a)) ([**@Tigge**](https://github.com/Tigge))
+  -  upgrade yarn, yarn sdks and yarn plugins ([`23a63db`](https://github.com//AxisCommunications/eslint-config-typescript-shareable/commit/23a63dbb4c0f6ab4cc70c9d4275ac371ffa5b72a)) ([**@Tigge**](https://github.com/Tigge))
+
+# [v1.8.0](https://github.com//AxisCommunications/eslint-config-typescript-shareable/releases/tag/v1.8.0)
 2022-07-14 16:54:25 +0200, [Compare changes](https://github.com//AxisCommunications/eslint-config-typescript-shareable/compare/v1.7.0...v1.8.0)
 
 ### 🚧 Maintenance

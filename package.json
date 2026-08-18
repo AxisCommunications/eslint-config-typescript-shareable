@@ -37,7 +37,7 @@
     "postcss-scss": "^4.0.5",
     "postcss-styled": "^0.34.0",
     "postcss-syntax": "^0.36.2",
-    "prettier": "^2.7.1",
+    "prettier": "^2.7.1 || ^3.0.0",
     "stylelint": "^14.14.0",
     "stylelint-config-recommended": "^9.0.0",
     "stylelint-config-standard-scss": "^5.0.0",
@@ -47,7 +47,7 @@
     "typescript-styled-plugin": "^0.18.2"
   },
   "devDependencies": {
-    "prettier": "2.7.1",
+    "prettier": "3.9.6",
     "semver": "7.3.8"
   },
   "packageManager": "yarn@3.2.4"

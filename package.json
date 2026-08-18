@@ -32,7 +32,7 @@
     "eslint-plugin-functional": "^4.4.1",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-react": "^7.31.10",
-    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-hooks": "^4.6.0 || ^7.0.0",
     "postcss": "^8.4.18",
     "postcss-scss": "^4.0.5",
     "postcss-styled": "^0.34.0",

@@ -29,7 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["prettier", "npm:2.7.1"],\
-            ["semver", "npm:7.3.8"]\
+            ["semver", "npm:7.8.5"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -40,19 +40,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["eslint-config-typescript-shareable", "workspace:."],\
             ["prettier", "npm:2.7.1"],\
-            ["semver", "npm:7.3.8"]\
+            ["semver", "npm:7.8.5"]\
           ],\
           "linkType": "SOFT"\
-        }]\
-      ]],\
-      ["lru-cache", [\
-        ["npm:6.0.0", {\
-          "packageLocation": "./.yarn/cache/lru-cache-npm-6.0.0-b4c8668fe1-f97f499f89.zip/node_modules/lru-cache/",\
-          "packageDependencies": [\
-            ["lru-cache", "npm:6.0.0"],\
-            ["yallist", "npm:4.0.0"]\
-          ],\
-          "linkType": "HARD"\
         }]\
       ]],\
       ["prettier", [\
@@ -65,20 +55,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["semver", [\
-        ["npm:7.3.8", {\
-          "packageLocation": "./.yarn/cache/semver-npm-7.3.8-25a996cb4f-ba9c7cbbf2.zip/node_modules/semver/",\
+        ["npm:7.8.5", {\
+          "packageLocation": "./.yarn/cache/semver-npm-7.8.5-785968bbf9-0c580f17e8.zip/node_modules/semver/",\
           "packageDependencies": [\
-            ["semver", "npm:7.3.8"],\
-            ["lru-cache", "npm:6.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["yallist", [\
-        ["npm:4.0.0", {\
-          "packageLocation": "./.yarn/cache/yallist-npm-4.0.0-b493d9e907-343617202a.zip/node_modules/yallist/",\
-          "packageDependencies": [\
-            ["yallist", "npm:4.0.0"]\
+            ["semver", "npm:7.8.5"]\
           ],\
           "linkType": "HARD"\
         }]\
